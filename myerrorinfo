@@ -1,0 +1,6 @@
+[ 21% 10256/48224] //system/sepolicy:sepolicy_freeze_test sepolicy_freeze_test
+FAILED: out/soong/.intermediates/system/sepolicy/sepolicy_freeze_test/freeze_test
+diff -r -q -x bug_map system/sepolicy/public system/sepolicy/prebuilts/api/34.0/public && diff -r -q -x bug_map system/sepolicy/private system/sepolicy/prebuilts/api/34.0
+/private && touch out/soong/.intermediates/system/sepolicy/sepolicy_freeze_test/freeze_test # hash of input list: 6d2bda577f5eccb85cf2f433c5fa866d9823e9f3e5a9d148becda0f5
+903787eb
+Files system/sepolicy/private/system_server.te and system/sepolicy/prebuilts/api/34.0/private/system_server.te differ
